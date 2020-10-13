@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "es6",
+    "moduleResolution": "node",
+    "declaration": false,
+    "noImplicitAny": false,
+    "sourceMap": true,
+    "jsx": "react",
+    "noLib": false,
+    "allowJs": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "baseUrl": "./src/",
+    "paths": {
+      "models": ["models"],
+      "common": ["common"],
+      "core": ["core"],
+      "layouts": ["layouts"],
+      "pods": ["pods"],
+      "scenes": ["scenes"],
+      "common-app": ["common-app"]
+    }
+  },
+  "include": ["./src/**/*"]
+}

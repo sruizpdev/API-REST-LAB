@@ -1,0 +1,14 @@
+{
+  "name": "rick-and-morty-exercise",
+  "version": "1.0.0",
+  "description": "Ejercicio API REST Rick and Morty",
+  "main": "index.js",
+  "scripts": {
+    "mock-server": "json-server --routes ./config/routes.json --watch mock-data/api-data.json --no-delete-cascade"
+  },
+  "author": "Sergio Ruiz",
+  "license": "MIT",
+  "dependencies": {
+    "json-server": "^0.16.1"
+  }
+}
